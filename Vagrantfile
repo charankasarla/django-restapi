@@ -13,8 +13,8 @@ Vagrant.configure("2") do |config|
 
  # Every Vagrant development environment requires a box. You can search for
  # boxes at https://vagrantcloud.com/search.
- config.vm.provider :virtualbox do |vb|
- end
+ #config.vm.provider :virtualbox do |vb|
+ #end
  config.vm.box = "ubuntu/bionic64"
  config.vm.box_version = "~> 20200304.0.0"
 
